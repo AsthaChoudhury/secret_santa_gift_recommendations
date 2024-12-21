@@ -20,7 +20,7 @@ HTML & CSS: User interaction.
 2. Set up a virtual environment:
      ```
       python -m venv venv
-      source venv/bin/activate  # On Windows: venv\Scripts\activate
+      # On Mac: source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install dependencies:
     ```
