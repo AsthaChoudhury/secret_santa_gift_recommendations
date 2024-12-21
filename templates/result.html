@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Products</title>
+</head>
+<body>
+    <h1>Recommended Products for You!</h1>
+{% if recommendations %}
+<ul>
+  {% for product in recommendations %}
+  <li>{{ product }}</li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No recommendations available for the entered Age and Gender.</p>
+{% endif %}
+
+    <a href="/">Back to Home</a>
+</body>
+</html>

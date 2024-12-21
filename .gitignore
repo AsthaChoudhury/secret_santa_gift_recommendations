@@ -1,0 +1,16 @@
+# Ignore data files
+data/
+customer_data.csv
+Christmas Sales and Trends.csv
+gift_data.csv
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore credentials or sensitive files
+*.env
+
+Christmas Sales and Trends.csv
